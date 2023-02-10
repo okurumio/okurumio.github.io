@@ -5,15 +5,15 @@ const { penName, link, avatar, name, slogan } = require("../common/info");
 // 主题配置
 module.exports = {
   nav, // 顶部导航栏
-  sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+  sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: 'https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png', // 导航栏logo
   repo: 'okurumio', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
-  editLinks: false, // 启用编辑链接
+  editLinks: true, // 启用编辑链接
   docsDir: 'docs', // 编辑的文件夹
   docsBranch: 'main', // 编辑的分支
-  editLinkText: '帮助我们改善此页面',
+  editLinkText: '编辑',
   // searchPlaceholder: "按下 𝑺 搜索",  // 可选：搜索栏占位文本，默认："$ grep ..."
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
@@ -62,7 +62,7 @@ module.exports = {
     bubbleNum: 200, // 气泡的个数，bubble 为 true 生效，默认 200 个
   },
 
-  sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+  sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
   pageStyle: 'card', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
   updateBar: { // 最近更新栏
     showToArticle: false, // 显示到文章页底部，默认true
