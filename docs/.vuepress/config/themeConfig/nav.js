@@ -6,7 +6,7 @@ module.exports = [
             {text: 'python', link: '/language/python/'},
             {text: 'java', link: '/language/java/'},
             {text: 'javascript', link: '/language/javascript/'},
-            {text: 'c++', link: '/language/c++/'},
+            {text: 'c/c++', link: '/language/c/'},
             {text: '汇编', link: '/language/assembly/'},
         ]
     },
