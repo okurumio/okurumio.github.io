@@ -2,6 +2,7 @@
 module.exports = [
   // 全文搜索插件
   'fulltext-search',
+  'vuepress-plugin-mermaidjs',
   [
     'one-click-copy',
     {
