@@ -39,6 +39,7 @@ module.exports = [
         items: [
             {text: '操作系统', link: '/system/os/'},
             {text: '运维', link: '/system/ops/'},
+            {text: '环境', link: '/system/env/'},
         ]
     },
     { text: 'Tools', link: '/tools/' },

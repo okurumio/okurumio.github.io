@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png
+#heroImage: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220720_132208.png
 tagline: chara
 heroText: chara
 pageClass: vdoing-index-class
